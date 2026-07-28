@@ -1,0 +1,7 @@
+# TODO: pin actual dependencies once training/eval code is added.
+# Expected areas based on README.md:
+# - torch / torchvision
+# - ultralytics (YOLOv8/v11)
+# - anomalib==1.2.0 (PatchCore, PaDiM, DRAEM, Reverse Distillation)
+# - pycocotools
+# - numpy, pandas, opencv-python

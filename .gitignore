@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+data/PCB-MC/
+*.pt
+*.pth
+*.ckpt
+.DS_Store
