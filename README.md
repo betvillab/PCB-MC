@@ -17,7 +17,7 @@ This repository contains **code only**. The dataset itself is hosted separately 
 
 PCB-MC targets **missing component detection** on printed circuit boards: identifying empty footprints where a component should be present but is absent. This differs from standard object detection since there is no visible object to learn from, only its absence.
 
-The central methodological contribution is **board identity aware evaluation**: random train/test splits allow models to memorize board layouts rather than learn to detect missing components, inflating reported mAP by up to 55 points. This repo includes the exact split-generation code used in the paper, so results are reproducible without re-deriving the protocol.
+The central methodological contribution is **board identity aware evaluation**: random train/test splits allow models to memorize board layouts rather than learn to detect missing components. This repo includes the exact split generation code used in the paper, so results are reproducible without re-deriving the protocol.
 
 This repository provides:
 
