@@ -1,4 +1,4 @@
-# PCB-MC: Benchmark Code
+# PCB-MC: Missing Component Detection in Printed Circuit Boards
 
 Code accompanying **PCB-MC: Missing Component Detection in Printed Circuit Boards**, accepted at EUVIP 2026 (IEEE, Luxembourg, September 28 – October 1, 2026).
 
@@ -17,13 +17,13 @@ This repository contains **code only**. The dataset itself is hosted separately 
 
 PCB-MC targets **missing component detection** on printed circuit boards: identifying empty footprints where a component should be present but is absent. This differs from standard object detection since there is no visible object to learn from, only its absence.
 
-The central methodological contribution is **board-identity-aware evaluation**: random train/test splits allow models to memorize board layouts rather than learn to detect missing components, inflating reported mAP by up to 55 points. This repo includes the exact split-generation code used in the paper, so results are reproducible without re-deriving the protocol.
+The central methodological contribution is **board identity aware evaluation**: random train/test splits allow models to memorize board layouts rather than learn to detect missing components, inflating reported mAP by up to 55 points. This repo includes the exact split-generation code used in the paper, so results are reproducible without re-deriving the protocol.
 
 This repository provides:
 
-- Split generation (board-identity-aware 5-fold cross-validation)
+- Split generation (board identity aware 5 fold cross validation)
 - Data loading and preprocessing for images/annotations downloaded from the 4TU deposit
-- Training and evaluation code for all baselines reported in the paper (YOLOv8/v11/v26, RT-DETR, D-FINE)
+- Training and evaluation code for all baselines reported in the paper (YOLOv8/v11/26, RT-DETR, D-FINE)
 - Anomaly detection evaluation (Anomalib-based: PatchCore, PaDiM, DRAEM, Reverse Distillation)
 - Scripts to reproduce every table and figure in the paper
 
@@ -123,17 +123,17 @@ python scripts/evaluate.py --model yolov8 --checkpoint <path> --fold 0
 If you use this code, please cite both the paper and the dataset:
 
 ```bibtex
-@inproceedings{[paper_citekey],
-  title     = {[Paper title]},
-  author    = {Villa, Betsy and Talavera, E. and Gibson, I.},
+@inproceedings{villa2026pcbmc,
+  title     = {PCB-MC: Missing Component Detection in Printed Circuit Boards},
+  author    = {Villa, B. and Talavera, E. and Gibson, I.},
   booktitle = {Proceedings of the IEEE European Workshop on Visual Information Processing (EUVIP)},
   year      = {2026},
   address   = {Luxembourg}
 }
 
-@dataset{[dataset_citekey],
+@dataset{villa2026pcbmcdata,
   title     = {PCB-MC: Missing Component Detection in Printed Circuit Boards},
-  author    = {Villa, Betsy and Talavera, E. and Gibson, I.},
+  author    = {Villa, B. and Talavera, E. and Gibson, I.},
   year      = {2026},
   publisher = {4TU.ResearchData},
   doi       = {10.4121/7c6e5bda-eecf-4feb-8a3a-7f823b1b0140}
