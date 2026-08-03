@@ -1,0 +1,19 @@
+weights: yolov8s.pt
+imgsz: 1024
+batch: -1
+epochs: 300
+lr0: 0.0001
+
+fliplr: 0.5
+flipud: 0.2
+degrees: 5.0
+translate: 0.05
+scale: 0.35
+shear: 0.0
+perspective: 0.0
+hsv_h: 0.015
+hsv_s: 0.40
+hsv_v: 0.30
+mosaic: 0.6
+mixup: 0.05
+copy_paste: 0.0

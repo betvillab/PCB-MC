@@ -1,0 +1,14 @@
+crop_size: 128
+context_factor: 1.4
+min_crop_px: 12
+present_to_missing_ratio: 2.0
+batch_size: 64
+epochs: 40
+lr: 0.0003
+weight_decay: 0.0001
+focal_alpha: 0.75
+focal_gamma: 2.0
+clf_thr: 0.50
+val_frac: 0.15
+patience: 10
+seed: 42
