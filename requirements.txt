@@ -1,7 +1,19 @@
-# TODO: pin actual dependencies once training/eval code is added.
-# Expected areas based on README.md:
-# - torch / torchvision
-# - ultralytics (YOLOv8/v11)
-# - anomalib==1.2.0 (PatchCore, PaDiM, DRAEM, Reverse Distillation)
-# - pycocotools
-# - numpy, pandas, opencv-python
+torch
+torchvision
+ultralytics
+sahi
+anomalib==1.2.0
+requests
+pyyaml
+numpy
+pandas
+opencv-python
+pillow
+scikit-learn
+matplotlib
+tqdm
+
+# D-FINE and RT-DETR pull in their own training dependencies (transformers,
+# pycocotools, etc.) via their upstream repos — see models/dfine/train_dfine.py
+# (--dfine-repo, expects a vendored checkout of https://github.com/Peterande/D-FINE)
+# and models/rtdetr/train_rtdetr.py (uses ultralytics' RTDETR).

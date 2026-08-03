@@ -1,0 +1,3 @@
+epochs: 300
+imgsz: 1024
+batch: -1
