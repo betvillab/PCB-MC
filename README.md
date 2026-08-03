@@ -1,13 +1,13 @@
-# PCB-MC: Missing Component Detection in Printed Circuit Boards
+# PCB-MC: Missing Component Analysis in Printed Circuit Boards
 
-Code accompanying **PCB-MC: Missing Component Detection in Printed Circuit Boards**, accepted at EUVIP 2026 (IEEE, Luxembourg, September 28 – October 1, 2026).
+Code accompanying **PCB-MC: Missing Component Analysis in Printed Circuit Boards**, accepted at EUVIP 2026 (IEEE, Luxembourg, September 28 – October 1, 2026).
 
 This repository contains **code only**. The dataset itself is hosted separately at 4TU.ResearchData:
 
 **Dataset DOI:** https://doi.org/10.4121/7c6e5bda-eecf-4feb-8a3a-7f823b1b0140
 
-- **Paper:** "PCB-MC: Missing Component Detection in Printed Circuit Boards" — DOI: [add once available, e.g. after IEEE Xplore indexing]
-- **Authors:** Betsy Villa, E. Talavera, I. Gibson — University of Twente
+- **Paper:** "PCB-MC: Missing Component Analysis in Printed Circuit Boards" — DOI: [add once available, e.g. after IEEE Xplore indexing]
+- **Authors:** B. Villa, E. Talavera, I. Gibson — University of Twente
 - **Contact:** b.j.villabrochero@utwente.nl
 - **License (code):** MIT
 
