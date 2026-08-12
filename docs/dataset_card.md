@@ -1,4 +1,4 @@
-# PCB-MC: Missing Component Detection in Printed Circuit Boards
+# PCB-MC: Missing Component Analysis in Printed Circuit Boards
 
 ## Overview
 
@@ -6,12 +6,13 @@ PCB-MC is a benchmark dataset and evaluation framework for detecting **missing c
 
 The dataset is built on top of RF100 (Roboflow), and introduces board-identity-aware evaluation splits to prevent layout memorization from inflating reported performance.
 
-- **Paper:** "PCB-MC: Missing Component Detection in Printed Circuit Boards", accepted at EUVIP 2026 (IEEE, Luxembourg, September 28 – October 1, 2026). DOI: [add once available, e.g. after IEEE Xplore indexing]
-- **Authors:** Betsy Villa, E. Talavera, I. Gibson
+- **Paper:** "PCB-MC: Missing Component Analysis in Printed Circuit Boards", accepted at EUVIP 2026 (IEEE, Luxembourg, September 28 – October 1, 2026). DOI: [add once available, e.g. after IEEE Xplore indexing]
+- **Authors:** Betsy Villa Brochero, Ian Gibson, Estefanía Talavera Martínez
 - **Affiliation:** University of Twente
 - **Contact:** b.j.villabrochero@utwente.nl
 - **License:** CC BY 4.0 (dataset). Code is released separately under MIT.
-- **DOI:** https://doi.org/10.4121/7c6e5bda-eecf-4feb-8a3a-7f823b1b0140
+- **Status:** Published at 4TU.ResearchData, 2026-08-10 (Version 1)
+- **DOI:** https://doi.org/10.4121/7c6e5bda-eecf-4feb-8a3a-7f823b1b0140 (versioned: [10.4121/7c6e5bda-eecf-4feb-8a3a-7f823b1b0140.v1](https://doi.org/10.4121/7c6e5bda-eecf-4feb-8a3a-7f823b1b0140.v1))
 
 ## Dataset statistics
 
@@ -93,8 +94,8 @@ On the conventional tasks, YOLOv11 reaches mAP 0.30 ± 0.05 on Task A and mAP 0.
 
 ```bibtex
 @inproceedings{villa2026pcbmc,
-  title     = {PCB-MC: Missing Component Detection in Printed Circuit Boards},
-  author    = {Villa, B. and Talavera, E. and Gibson, I.},
+  title     = {PCB-MC: Missing Component Analysis in Printed Circuit Boards},
+  author    = {Villa Brochero, Betsy and Gibson, Ian and Talavera Martínez, Estefanía},
   booktitle = {Proceedings of the IEEE European Workshop on Visual Information Processing (EUVIP)},
   year      = {2026},
   address   = {Luxembourg}
@@ -105,15 +106,15 @@ Please also cite the dataset DOI separately if your work uses PCB-MC without usi
 
 ```bibtex
 @dataset{villa2026pcbmcdata,
-  title     = {PCB-MC: Missing Component Detection in Printed Circuit Boards},
-  author    = {Villa, B. and Talavera, E. and Gibson, I.},
+  title     = {PCB-MC: Missing Component Analysis in Printed Circuit Boards},
+  author    = {Villa Brochero, Betsy and Gibson, Ian and Talavera Martínez, Estefanía},
   year      = {2026},
   publisher = {4TU.ResearchData},
-  doi       = {10.4121/7c6e5bda-eecf-4feb-8a3a-7f823b1b0140}
+  doi       = {10.4121/7c6e5bda-eecf-4feb-8a3a-7f823b1b0140.v1}
 }
 ```
 
 ## Related resources
 
 - **Code repository (training, evaluation, baselines, figure reproduction):** https://github.com/betvillab/pcb-mc
-- **Roboflow Universe mirror:** [URL, optional]
+- **Roboflow Universe mirror:** https://universe.roboflow.com/roboflow-100/printed-circuit-board

@@ -1,4 +1,4 @@
-# PCB-MC: Missing Component Detection in Printed Circuit Boards
+# PCB-MC: Missing Component Analysis in Printed Circuit Boards
 
 ## Overview
 
@@ -8,7 +8,9 @@ The dataset is built on top of the RF100 (Roboflow 100) "Printed Circuit Board" 
 
 This deposit accompanies the paper:
 
-> B. Villa Brochero, E. Talavera, and I. Gibson, "PCB-MC: Missing Component Detection in Printed Circuit Boards," in *Proceedings of the IEEE European Workshop on Visual Information Processing (EUVIP)*, Luxembourg, Sept 28–Oct 1, 2026.
+> Betsy Villa Brochero, Ian Gibson, and Estefanía Talavera Martínez, "PCB-MC: Missing Component Analysis in Printed Circuit Boards," in *Proceedings of the IEEE European Workshop on Visual Information Processing (EUVIP)*, Luxembourg, Sept 28–Oct 1, 2026.
+
+Published at 4TU.ResearchData on 2026-08-10 (Version 1): [doi.org/10.4121/7c6e5bda-eecf-4feb-8a3a-7f823b1b0140](https://doi.org/10.4121/7c6e5bda-eecf-4feb-8a3a-7f823b1b0140)
 
 Code used to generate these results is available at: [github.com/betvillab/PCB-MC](https://github.com/betvillab/PCB-MC)
 
@@ -98,19 +100,19 @@ If you use PCB-MC, please cite both the paper and the dataset:
 
 ```bibtex
 @inproceedings{villa2026pcbmc,
-  title     = {PCB-MC: Missing Component Detection in Printed Circuit Boards},
-  author    = {Villa, B. and Talavera, E. and Gibson, I.},
+  title     = {PCB-MC: Missing Component Analysis in Printed Circuit Boards},
+  author    = {Villa Brochero, Betsy and Gibson, Ian and Talavera Martínez, Estefanía},
   booktitle = {Proceedings of the IEEE European Workshop on Visual Information Processing (EUVIP)},
   year      = {2026},
   address   = {Luxembourg}
 }
 
 @dataset{villa2026pcbmcdata,
-  title     = {PCB-MC: Missing Component Detection in Printed Circuit Boards},
-  author    = {Villa, B. and Talavera, E. and Gibson, I.},
+  title     = {PCB-MC: Missing Component Analysis in Printed Circuit Boards},
+  author    = {Villa Brochero, Betsy and Gibson, Ian and Talavera Martínez, Estefanía},
   year      = {2026},
   publisher = {4TU.ResearchData},
-  doi       = {10.4121/7c6e5bda-eecf-4feb-8a3a-7f823b1b0140}
+  doi       = {10.4121/7c6e5bda-eecf-4feb-8a3a-7f823b1b0140.v1}
 }
 ```
 

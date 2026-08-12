@@ -1,20 +1,22 @@
 # PCB-MC Dataset Card — 4TU.ResearchData Submission
 
-4TU.ResearchData (built on Figshare) collects metadata through structured fields at upload time rather than a single freeform README. This document is organized to match those fields directly — copy each section into the corresponding box in the submission form.
+**Status: Published.** This document was originally the pre-submission worksheet (structured
+to match 4TU's upload form fields); it's kept as a record of what was submitted, now updated
+to match the live, published record at
+[data.4tu.nl/datasets/7c6e5bda-eecf-4feb-8a3a-7f823b1b0140](https://data.4tu.nl/datasets/7c6e5bda-eecf-4feb-8a3a-7f823b1b0140)
+(published 2026-08-10, Version 1).
 
 ---
 
 ## Title
 
-PCB-MC: Missing Component Detection in Printed Circuit Boards
+PCB-MC: Missing Component Analysis in Printed Circuit Boards
 
 ## Authors
 
-List each author with ORCID if available (4TU requires ORCID for the submitting/corresponding author, and strongly encourages it for all authors):
-
-- Betsy Villa — University of Twente — ORCID: [xxxx-xxxx-xxxx-xxxx]
-- E. Talavera — University of Twente — ORCID: [xxxx-xxxx-xxxx-xxxx]
-- I. Gibson — University of Twente — ORCID: [xxxx-xxxx-xxxx-xxxx]
+- Betsy Villa Brochero — University of Twente (Faculty of EEMCS, Data Management and Biometrics) — ORCID: [0000-0001-7077-5619](https://orcid.org/0000-0001-7077-5619)
+- Ian Gibson — University of Twente (Faculty of Engineering Technology, Design, Production, and Management) — ORCID: [0000-0002-4149-9122](https://orcid.org/0000-0002-4149-9122)
+- Estefanía Talavera Martínez — University of Twente (Faculty of EEMCS, Data Management and Biometrics) — ORCID: [0000-0001-5918-8990](https://orcid.org/0000-0001-5918-8990)
 
 ## Description (abstract field)
 
@@ -35,11 +37,10 @@ printed circuit boards; PCB inspection; object detection; anomaly detection; mis
 
 ## Categories / Subject classification
 
-*(4TU uses ANZSRC Fields of Research codes — pick the closest matches during submission, typically under Information and Computing Sciences)*
+As assigned on the published record:
 
-- Computer Vision
-- Machine Learning
-- Image Processing
+- Artificial Intelligence and Image Processing
+- Information and Computing Sciences
 
 ## Format
 
@@ -55,11 +56,11 @@ CC BY 4.0
 
 ## Dataset DOI
 
-10.4121/7c6e5bda-eecf-4feb-8a3a-7f823b1b0140
+10.4121/7c6e5bda-eecf-4feb-8a3a-7f823b1b0140 (versioned: 10.4121/7c6e5bda-eecf-4feb-8a3a-7f823b1b0140.v1)
 
 ## Related publication
 
-B. Villa Brochero, E. Talavera, and I. Gibson, "PCB-MC: Missing Component Detection in Printed Circuit Boards," accepted at the IEEE European Workshop on Visual Information Processing (EUVIP 2026), Luxembourg, September 28 – October 1, 2026.
+Betsy Villa Brochero, Ian Gibson, and Estefanía Talavera Martínez, "PCB-MC: Missing Component Analysis in Printed Circuit Boards," accepted at the IEEE European Workshop on Visual Information Processing (EUVIP 2026), Luxembourg, September 28 – October 1, 2026.
 DOI: [add once available, e.g. after IEEE Xplore indexing]
 
 ## Related materials / code
@@ -81,6 +82,10 @@ Not applicable (synthetic/industrial imagery, no geographic association)
 ## Time period covered
 
 [Data collection period, e.g. 2024–2026]
+
+## Deposited file (as published)
+
+- `PCB_MC.zip` — 3,772,070,324 bytes (3.77 GB) — MD5: `1533d1ca6d54c37b19c1a94297c0745c`
 
 ---
 
@@ -140,18 +145,18 @@ tasks, YOLOv11 reaches mAP 0.30 ± 0.05 on Task A and mAP 0.42 ± 0.09 (F1 0.50 
 
 ```bibtex
 @dataset{villa2026pcbmcdata,
-  title     = {PCB-MC: Missing Component Detection in Printed Circuit Boards},
-  author    = {Villa, B. and Talavera, E. and Gibson, I.},
+  title     = {PCB-MC: Missing Component Analysis in Printed Circuit Boards},
+  author    = {Villa Brochero, Betsy and Gibson, Ian and Talavera Martínez, Estefanía},
   year      = {2026},
   publisher = {4TU.ResearchData},
-  doi       = {10.4121/7c6e5bda-eecf-4feb-8a3a-7f823b1b0140}
+  doi       = {10.4121/7c6e5bda-eecf-4feb-8a3a-7f823b1b0140.v1}
 }
 ```
 
 ```bibtex
 @inproceedings{villa2026pcbmc,
-  title     = {PCB-MC: Missing Component Detection in Printed Circuit Boards},
-  author    = {Villa, B. and Talavera, E. and Gibson, I.},
+  title     = {PCB-MC: Missing Component Analysis in Printed Circuit Boards},
+  author    = {Villa Brochero, Betsy and Gibson, Ian and Talavera Martínez, Estefanía},
   booktitle = {Proceedings of the IEEE European Workshop on Visual Information Processing (EUVIP)},
   year      = {2026},
   address   = {Luxembourg}

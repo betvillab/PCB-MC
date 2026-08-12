@@ -7,7 +7,7 @@ This repository contains **code only**. The dataset itself is hosted separately 
 **Dataset DOI:** https://doi.org/10.4121/7c6e5bda-eecf-4feb-8a3a-7f823b1b0140
 
 - **Paper:** "PCB-MC: Missing Component Analysis in Printed Circuit Boards" — DOI: [add once available, e.g. after IEEE Xplore indexing]
-- **Authors:** B. Villa, E. Talavera, I. Gibson — University of Twente
+- **Authors:** Betsy Villa Brochero, Ian Gibson, Estefanía Talavera Martínez — University of Twente
 - **Contact:** b.j.villabrochero@utwente.nl
 - **License (code):** MIT
 
@@ -101,10 +101,12 @@ python data/download.py --output ./data/PCB-MC
 
 This resolves the dataset DOI via the 4TU.ResearchData / djehuty API (Figshare v2
 compatible: `POST /v2/articles/search` by DOI, then `GET /v2/articles/{id}/files`) and
-streams each file down with checksum verification. **The dataset is not yet published** —
-the DOI above doesn't resolve yet, so `download.py` will fail until the 4TU deposit goes
-live. Until then, use data from the paper's authors directly and place it under
-`data/PCB-MC/` matching the structure below.
+streams each file down with checksum verification. **The dataset is now published**
+(4TU.ResearchData, 2026-08-10, DOI [10.4121/7c6e5bda-eecf-4feb-8a3a-7f823b1b0140.v1](https://doi.org/10.4121/7c6e5bda-eecf-4feb-8a3a-7f823b1b0140.v1)),
+so `download.py` should resolve and stream it directly. Note the deposit ships as a single
+archive, `PCB_MC.zip` (3.77 GB, MD5 `1533d1ca6d54c37b19c1a94297c0745c`) — `download.py`
+downloads it as-is but doesn't unzip it yet, so extract it manually into `data/PCB-MC/`
+matching the structure below.
 
 Expected structure after download (this is the published 4TU layout — see
 `docs/dataset_package_README.md` for the authoritative version bundled with the data):
@@ -239,19 +241,19 @@ If you use this code, please cite both the paper and the dataset:
 
 ```bibtex
 @inproceedings{villa2026pcbmc,
-  title     = {PCB-MC: Missing Component Detection in Printed Circuit Boards},
-  author    = {Villa, B. and Talavera, E. and Gibson, I.},
+  title     = {PCB-MC: Missing Component Analysis in Printed Circuit Boards},
+  author    = {Villa Brochero, Betsy and Gibson, Ian and Talavera Martínez, Estefanía},
   booktitle = {Proceedings of the IEEE European Workshop on Visual Information Processing (EUVIP)},
   year      = {2026},
   address   = {Luxembourg}
 }
 
 @dataset{villa2026pcbmcdata,
-  title     = {PCB-MC: Missing Component Detection in Printed Circuit Boards},
-  author    = {Villa, B. and Talavera, E. and Gibson, I.},
+  title     = {PCB-MC: Missing Component Analysis in Printed Circuit Boards},
+  author    = {Villa Brochero, Betsy and Gibson, Ian and Talavera Martínez, Estefanía},
   year      = {2026},
   publisher = {4TU.ResearchData},
-  doi       = {10.4121/7c6e5bda-eecf-4feb-8a3a-7f823b1b0140}
+  doi       = {10.4121/7c6e5bda-eecf-4feb-8a3a-7f823b1b0140.v1}
 }
 ```
 
