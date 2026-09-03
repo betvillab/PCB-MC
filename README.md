@@ -59,8 +59,6 @@ pcb-mc/
 │   ├── train.py                     # dispatches to models/*/train_*.py by --model
 │   ├── evaluate.py                  # dispatches to the eval scripts by --model
 │   └── reproduce_paper_tables.py
-├── notebooks/
-│   └── figures.ipynb                # exploratory/qualitative plotting kept notebook-side
 └── docs/
     ├── dataset_card.md              # dataset card (GitHub-facing)
     ├── 4TU_dataset_card.md          # dataset card (4TU.ResearchData submission)
