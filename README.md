@@ -6,7 +6,7 @@ This repository contains **code only**. The dataset itself is hosted separately 
 
 **Dataset DOI:** https://doi.org/10.4121/7c6e5bda-eecf-4feb-8a3a-7f823b1b0140
 
-- **Paper:** "PCB-MC: Missing Component Analysis in Printed Circuit Boards" — DOI: [add once available, e.g. after IEEE Xplore indexing]
+- **Paper:** "PCB-MC: Missing Component Analysis in Printed Circuit Boards" — DOI: [add once available]
 - **Authors:** Betsy Villa Brochero, Ian Gibson, Estefanía Talavera Martínez — University of Twente
 - **Contact:** b.j.villabrochero@utwente.nl
 - **License (code):** MIT
@@ -167,18 +167,6 @@ The published dataset ships its own reference results under `data/PCB-MC/results
 `table3_per_class_ap.csv`, `table4_anomaly_detection.csv`, `stage1_proposal_recall.csv` —
 which the numbers in the table below reproduce or extend:
 
-| Paper item | Script |
-|---|---|
-| Table [X]: layout leakage comparison (random vs. board-type-aware splits) | not computed by any extracted notebook — not yet automated |
-| Table 3: per-class AP, supervised detectors (YOLOv8/v11/26, RT-DETR, D-FINE) | `scripts/reproduce_paper_tables.py --table detection_metrics --model dfine --subset full_dataset` (repeat per model/subset) |
-| Table 4: anomaly detection results (PatchCore, PaDiM, DRAEM, Reverse Distillation) | `scripts/evaluate.py --model anomaly --data-root data/PCB-MC --output-dir results/anomaly` |
-| Confusion matrix, Task M (missing components) | `scripts/reproduce_paper_tables.py --table confusion_matrix --data-root data/PCB-MC` |
-| Stage-1 proposal recall analysis (two-stage pipeline) | `scripts/evaluate.py --model two_stage --subset full_dataset --data-root data/PCB-MC` |
-| Figure [X]: qualitative TP/FP/FN overlays, GT/pred overlays, confusion-matrix heatmaps | `notebooks/figures.ipynb` |
-
-*(The layout-leakage comparison and exact figure numbers still need the camera-ready
-manuscript's own numbering — everything else above now matches the filenames the 4TU
-deposit itself ships under `results/`.)*
 
 ## Training a model
 
