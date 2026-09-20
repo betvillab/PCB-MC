@@ -6,7 +6,7 @@ This repository contains **code only**. The dataset itself is hosted separately 
 
 **Dataset DOI:** https://doi.org/10.4121/7c6e5bda-eecf-4feb-8a3a-7f823b1b0140
 
-- **Paper:** "PCB-MC: Missing Component Analysis in Printed Circuit Boards" — DOI: [add once available]
+- **Paper:** "PCB-MC: Missing Component Analysis in Printed Circuit Boards"
 - **Authors:** Betsy Villa Brochero, Ian Gibson, Estefanía Talavera Martínez — University of Twente
 - **Contact:** b.j.villabrochero@utwente.nl
 - **License (code):** MIT
